@@ -23,3 +23,18 @@
     padding: 0 2rem;
     width: 100%;
 }
+
+.header--dashboard__search {
+    align-items: center;
+    display: flex;
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+.header--dashboard__input-search {
+    background-color: #e3e3e3;
+    border: none;
+    border-radius: 8px;
+    height: 3rem;
+    width: 80%;
+}
