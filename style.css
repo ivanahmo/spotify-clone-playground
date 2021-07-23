@@ -31,10 +31,22 @@
     grid-row-start: 1;
 }
 
+.header--dashboard__search-icon-container {
+    align-items: center;
+    display: flex;
+}
+
+.header--dashboard__search-icon {
+    margin-left: 1rem;
+    position: absolute;
+}
+
 .header--dashboard__input-search {
     background-color: #e3e3e3;
     border: none;
     border-radius: 8px;
+    box-shadow: inset 0 8px 16px rgba(0, 0, 0, 0.25);
     height: 3rem;
+    padding-left: 3rem;
     width: 80%;
 }
