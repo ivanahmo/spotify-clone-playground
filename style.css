@@ -50,3 +50,34 @@
     padding-left: 3rem;
     width: 80%;
 }
+
+.header--dashboard__menu {
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.header--dashboard__menu-button {
+    background-color: #fff;
+    border: none;
+    font-weight: bold;
+    height: 3rem;
+    width: 9rem;
+}
+
+.header--dashboard__menu-content {
+    background-color: #e3e3e3;
+    border-radius: 8px;
+    display: none;
+    position: absolute;
+    top: 64px;
+    height: 6rem;
+    left: 32px;
+    padding: 1rem;
+    width: 9rem;
+    z-index: 1;
+}
+
+.header--dashboard__menu:hover .header--dashboard__menu-content {
+    display: block;
+}
